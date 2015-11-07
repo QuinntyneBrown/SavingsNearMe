@@ -1,0 +1,17 @@
+{
+  "name": "savings-near-me",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "quinntynebrown <quinntynebrown@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "ng-x": "^0.3.25",
+    "ng-x-components": "0.0.1"
+  }
+}
