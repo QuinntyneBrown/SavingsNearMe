@@ -2,12 +2,33 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Savings Near Me</title>
+    <link href="src/reset.css" rel="stylesheet" />
+    <link href="src/site.css" rel="stylesheet" />
 </head>
-    <body data-ng-app="app">
-        
-        <script src="node_modules/angular/angular.js"></script>
-        <script src="node_modules/angular-route/angular-route.js"></script>
-        <script src="node_modules/ng-x/dist/ngX.js"></script>
-        <script src="node_modules/ng-x-components/dist/ngX.components.js"></script>
-    </body>
+<body data-ng-app="app">
+
+    <snm-header></snm-header>
+
+    <snm-banner></snm-banner>
+
+    <div data-ng-view="" class="snm-main-content">
+
+    </div>
+
+    <snm-footer></snm-footer>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="node_modules/ng-x/dist/ngX.js"></script>
+    <script src="node_modules/ng-x-components/dist/ngX.components.js"></script>
+
+
+    <script src="src/app/app.module.js"></script>
+
+    <script src="src/app/components/home.component.js"></script>
+    <script src="src/app/components/coupons.component.js"></script>
+
+    <script src="src/app/subComponents/snm-header.js"></script>
+    <script src="src/app/subComponents/snm-banner.js"></script>
+</body>
 </html>

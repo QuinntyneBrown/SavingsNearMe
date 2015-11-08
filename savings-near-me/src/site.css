@@ -1,0 +1,11 @@
+﻿body {
+    font-family: "Gotham SSm A","Gotham SSm B",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: #F1F1F1;
+    width: 100%;
+}
+
+.snm-main-content {
+    color: #212121;
+}

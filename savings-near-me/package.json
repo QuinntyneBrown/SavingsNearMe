@@ -11,7 +11,7 @@
   "dependencies": {
     "angular": "^1.4.7",
     "angular-route": "^1.4.7",
-    "ng-x": "^0.3.25",
-    "ng-x-components": "0.0.1"
+    "ng-x": "*",
+    "ng-x-components": "*"
   }
 }
