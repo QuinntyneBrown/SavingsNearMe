@@ -87,8 +87,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\components\userManager.component.ts" />
+    <TypeScriptCompile Include="src\app\components\couponManager.component.ts" />
     <TypeScriptCompile Include="src\app\components\coupons.component.ts" />
     <TypeScriptCompile Include="src\app\components\home.component.ts" />
+    <TypeScriptCompile Include="src\app\components\login.component.ts" />
     <TypeScriptCompile Include="src\app\subComponents\snm-banner.ts" />
     <TypeScriptCompile Include="src\app\subComponents\snm-footer.ts" />
     <TypeScriptCompile Include="src\app\subComponents\snm-header.ts" />
