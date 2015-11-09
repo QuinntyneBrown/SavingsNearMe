@@ -8,7 +8,7 @@ namespace SavingsNearMeApi.Data
     public class SavingsNearMeContext : DbContext, ISavingsNearMeContext
     {
         public SavingsNearMeContext()
-            : base(nameOrConnectionString: "savingsNearMeContext")
+            : base(nameOrConnectionString: "savingsNearMe")
         {
             Configuration.ProxyCreationEnabled = false;
             Configuration.LazyLoadingEnabled = false;
