@@ -4,7 +4,7 @@
 
 class CouponDataService {
 
-    constructor(private apiEndpointConfig:any, private dataService: any) { }
+    constructor(private apiEndpoint:any, private dataService: any) { }
 
     public getAll = () => {
         return this.dataService.fromServiceOrCache({ method: "GET", url: this.baseUri + "/getAll" });
@@ -18,8 +18,8 @@ class CouponDataService {
         return this.dataService.fromServiceOrCache({ method: "POST", url: this.baseUri + "/add", data: options.data});
     }
 
-    public get baseUri() { return this.apiEndpointConfig.getBaseUrl() + "/coupon"; }
+    public get baseUri() { return this.apiEndpoint.getBaseUrl() + "/coupon"; }
 
 }
 
-angular.module("app").service("couponDataService", ["dataService",CouponDataService]);
+angular.module("app").service("couponDataService", ["apiEndpoint","dataService",CouponDataService]);
